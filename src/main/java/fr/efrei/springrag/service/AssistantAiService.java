@@ -1,4 +1,11 @@
 package fr.efrei.springrag.service;
 
-public class AssistantAiService {
+import dev.langchain4j.service.SystemMessage;
+import dev.langchain4j.service.spring.AiService;
+
+@AiService
+public interface AssistantAiService {
+    @SystemMessage(fromResource = "/prompts/system.st")
+    String chat(String message);
 }
+
