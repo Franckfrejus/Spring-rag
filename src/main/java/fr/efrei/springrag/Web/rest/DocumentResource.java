@@ -1,4 +1,4 @@
-package fr.efrei.springrag.web.rest;
+package fr.efrei.springrag.Web.rest;
 
 import fr.efrei.springrag.domain.Document;
 import fr.efrei.springrag.service.DocumentService;
