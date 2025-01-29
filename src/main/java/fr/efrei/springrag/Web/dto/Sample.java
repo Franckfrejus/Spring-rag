@@ -1,4 +1,4 @@
-package fr.efrei.springrag.web.dto;
+package fr.efrei.springrag.Web.dto;
 
 public class Sample {
     private String value;
